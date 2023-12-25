@@ -1,6 +1,7 @@
 name: Add model like runner
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - none # put main here when this is fixed
